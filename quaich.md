@@ -117,7 +117,7 @@ def myview():
 
 - chalice uses the Amazon API Gateway, which must be configured to route HTTP to your Lambda function
 - Configuring the Gateway is painful: one must define Velocity templates to include metadata variables (querystring, path, HTTP method, route, etc)
-- chalice provides a builtin deployer app that cofnigures all of this for you
+- chalice provides a builtin deployer app that configures all of this for you
 - quaich is eventually going to have the same via an SBT plugin
 
 ^ for now we are using a 'basic' sbt plugin from Gilt
